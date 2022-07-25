@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
+body {
+  background-color: #f8f8f8;
+  margin: 0;
+}
+.containerMain {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.containerFluidMain {
+  display: flex;
+  width: 100%;
+}
+.width-1 {
+  max-width: 10%;
+  width: 10%;
+}
+.width-2 {
+  max-width: 20%;
+  width: 20%;
+}
+.width-3 {
+  max-width: 30%;
+  width: 30%;
+}
+.width-4 {
+  max-width: 40%;
+  width: 40%;
+}
+.width-5 {
+  max-width: 50%;
+  width: 50%;
+}
+.width-6 {
+  max-width: 60%;
+  width: 60%;
+}
+.width-7 {
+  max-width: 70%;
+  width: 70%;
+}
+.width-8 {
+  max-width: 80%;
+  width: 80%;
+}
+.width-9 {
+  max-width: 90%;
+  width: 90%;
+}
+.width-10 {
+  max-width: 100%;
+  width: 100%;
+}
+.styleHeader .logo img {
+  max-width: 100%;
+  height: 50px;
+  width: auto;
+}
+.styleHeader .itemMenu ul {
+  padding: 15px 0px 0 0;
+  margin: 0;
+  text-align: right;
+}
+.styleHeader .itemMenu ul li {
+  display: inline-block;
+  padding-left: 25px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #625d5d;
+  cursor: pointer;
+  transition: all 4.5 ease-out;
+}
+.styleHeader .itemMenu ul li:hover {
+  transition: all 4.5 ease-out;
+  color: #d84a4a;
+}
+.styleImageHomeMain {
+  background-image: url("./Assets/Img/bcq.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-position: center center;
+}
+.styleImageHomeMain h1 {
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 70px;
+  margin-left: 20%;
+}
+.styleImageHomeMain h1 span {
+  font-family: 'MonsterClubhouse';
+}
+.styleCarosule {
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  height: 600px;
+}
+.styleCarosule h1 {
+  font-family: 'MonsterClubhouse';
+  color: #dc6666;
+  margin: 0;
+  font-size: 70px;
+}
+.itemCarousel {
+  background: #fff;
+  background: linear-gradient(10deg, #fff 7%, #edf4fb 100%);
+  padding: 70px 20px 10px 20px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.08);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.08);
+  margin-top: 70px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: -webkit-fill-available;
+  height: 160px;
+  position: relative;
+  cursor: pointer;
+}
+.itemCarousel h3 {
+  font-family: 'MonsterClubhouse';
+  color: #dc6666;
+  font-size: 24px;
+  text-align: center;
+}
+.imagenMainSlider {
+  width: 130px;
+  height: 130px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 300px;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.styleCalification {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+.styleCalification h6 {
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  color: #8b8989;
+  margin-left: 5px;
+}
+.styleCalification img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.styleCalification .imgStart {
+  float: right;
+}
+.descriptionContent {
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+.descriptionContent img {
+  width: 25px;
+  display: block;
+  margin: auto;
+}
+.descriptionContent h5 {
+  margin: 0px 0;
+  font-family: 'MonsterClubhouse';
+  color: #dc6666;
+}
+.descriptionContent h4 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.itemMainCarousel {
+  cursor: pointer;
+}
+.itemMainCarousel:hover .itemCarousel {
+  height: 250px;
+}
+.itemMainCarousel:hover .titleCarousel {
+  display: none;
+}
+.itemMainCarousel:hover .descriptionContent {
+  display: block;
+}
+.styleFooter {
+  background: #75abc7;
+  background: linear-gradient(0deg, #75abc7 0%, rgba(176,214,233,0.735) 100%);
+}
+.styleFooter h1 {
+  font-family: 'MonsterClubhouse';
+  color: #5d5d5d;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.styleFooter img {
+  position: absolute;
+  bottom: -50px;
+  right: 0;
+}
+.positionRelative {
+  position: relative;
+}
+.styleMenuMovil {
+  width: 90%;
+  margin: auto;
+  margin-top: -50px;
+}
+.styleMenuMovil .widthItemMenu {
+  display: inline-block;
+  width: 16%;
+}
+.styleMenuMovil .styleItemMenuMovil {
+  margin: 0 5px;
+  padding: 25px 5px;
+  background: #fff;
+  background: linear-gradient(10deg, #fff 7%, #edf4fb 100%);
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.08);
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.08);
+  text-align: center;
+  border-radius: 10px;
+}
+.styleMenuMovil .styleItemMenuMovil h6 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.styleMenuMovil .styleItemMenuMovil img {
+  height: 40px;
+}
+@media (min-width: 600px) and (max-width: 1199.98px) {
+  .styleHeader .logo img {
+    max-width: 200% !important;
+  }
+  .styleFooter img {
+    width: 450px;
+    bottom: -22px;
+  }
+}
+@media (min-width: 200px) and (max-width: 700px) {
+  .styleMenuMovil .widthItemMenu {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+  .styleHeader .logo img {
+    max-width: 200% !important;
+  }
+  .styleCarosule h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 200px) and (max-width: 400px) {
+  .styleMenuMovil .styleItemMenuMovil h6 {
+    font-size: 13px;
+  }
+  .styleFooter img {
+    width: 200px;
+    bottom: -22px;
+  }
+  .styleFooter h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .styleImageHomeMain h1 {
+    margin-left: 20px;
+    font-size: 70px;
+  }
+  .styleImageHomeMain {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+  .styleFooter img {
+    width: 250px;
+    bottom: -22px;
+  }
+  .styleFooter h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 770px) {
+  .styleFooter img {
+    width: 250px;
+    bottom: -22px;
+  }
+  .styleFooter h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}

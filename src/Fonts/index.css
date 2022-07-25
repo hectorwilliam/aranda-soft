@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MonsterClubhouse';
+    src: url('./Types/MonsterClubhouse.eot');
+    src: url('./Types/MonsterClubhouse.eot') format('embedded-opentype'),
+         url('./Types/MonsterClubhouse.woff2') format('woff2'),
+         url('./Types/MonsterClubhouse.woff') format('woff'),
+         url('./Types/MonsterClubhouse.ttf') format('truetype'),
+         url('./Types/MonsterClubhouse.svg#MonsterClubhouse') format('svg');
+}
